@@ -1,0 +1,1531 @@
+import React from 'react'
+
+import styled from 'styled-components'
+
+import { projectStyleVariants, TOKENS } from '.style'
+
+const Home = () => {
+  return (
+    <Container>
+      <NavbarContainer>
+        <Navbar>
+          <Logo>
+            <Image alt="image" src="/playground_assets/1280-1500h.png" />
+          </Logo>
+          <LinksContainer>
+            <Link href="#features" projVariant="anchor">
+              features
+            </Link>
+            <Link1 href="#services" projVariant="anchor">
+              services
+            </Link1>
+            <Link2 href="#about-us" projVariant="anchor">
+              About Us
+            </Link2>
+            <Link3 href="#contact" projVariant="anchor">
+              contact
+            </Link3>
+          </LinksContainer>
+          <CtaContainer>
+            <BurgerMenu>
+              <Icon viewBox="0 0 1024 1024">
+                <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
+              </Icon>
+            </BurgerMenu>
+          </CtaContainer>
+        </Navbar>
+      </NavbarContainer>
+      <Hero>
+        <HeroTextContainer>
+          <Heading projVariant="section-Heading">GRAPHICS STUDIO</Heading>
+          <Heading1>
+            <span>
+              designing is a art .so this compelling world inorder compete with
+              others,we have to modernize our skills to reach our own height.
+            </span>
+            <br></br>
+            <span>we help to you grow with Them!</span>
+          </Heading1>
+        </HeroTextContainer>
+        <Image01
+          alt="image"
+          src="https://images.unsplash.com/photo-1536240478700-b869070f9279?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGVkaXRpbmd8ZW58MHx8fHwxNjM5Mjg4NDM2&amp;ixlib=rb-1.2.1&amp;h=1500"
+        />
+      </Hero>
+      <SectionSeparator></SectionSeparator>
+      <Features id="features">
+        <HeadingContainer>
+          <Text03 projVariant="section-Heading">
+            features
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </Text03>
+          <Text04 projVariant="section-Text">
+            t is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout. The point of
+            using Lorem Ipsum is that it ha
+          </Text04>
+        </HeadingContainer>
+        <CardsContainer>
+          <FeatureCard>
+            <Image02
+              alt="image"
+              src="https://images.unsplash.com/photo-1619548683455-23b17c3ddc30?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+            />
+            <Heading2 projVariant="card-Heading">
+              Why us
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </Heading2>
+            <Text05 projVariant="card-Text">
+              <span>We provide our assistance 24/7.</span>
+              <br></br>
+              <span>
+                We shall provide Definitive Types of Arts in our own time
+              </span>
+            </Text05>
+          </FeatureCard>
+          <FeatureCard1>
+            <Image03
+              alt="image"
+              src="https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+            />
+            <Heading3 projVariant="card-Heading">What We Do</Heading3>
+            <Text09 projVariant="card-Text">
+              <span>
+                {' '}
+                We have Our own Research team to provide to provide your
+                required item
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>we team speaclized in photoshop,etc</span>
+            </Text09>
+          </FeatureCard1>
+          <FeatureCard2>
+            <Image04
+              alt="image"
+              src="https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+            />
+            <Heading4 projVariant="card-Heading">How?</Heading4>
+            <Text13 projVariant="card-Text">
+              With SIncere Gratitiude and Dedication Towards The firm
+            </Text13>
+          </FeatureCard2>
+        </CardsContainer>
+      </Features>
+      <Services id="services">
+        <ServiceCard>
+          <CardContent>
+            <Text14 projVariant="bigCard-Heading">VIDEO EDITING</Text14>
+            <Text15 projVariant="card-Text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </Text15>
+            <Image05
+              alt="image"
+              src="https://images.unsplash.com/photo-1574717025058-2f8737d2e2b7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHZpZGVvJTIwZWRpdGluZ3xlbnwwfHx8fDE2MzkyODc4OTE&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=400"
+            />
+          </CardContent>
+        </ServiceCard>
+        <ServiceCard1>
+          <CardContent1>
+            <Text16 projVariant="bigCard-Heading">PHOTO EDITING</Text16>
+            <Text17 projVariant="card-Text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </Text17>
+            <Image06
+              alt="image"
+              src="https://images.unsplash.com/photo-1621600411688-4be93cd68504?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHBob3RvJTIwZWRpdGluZ3xlbnwwfHx8fDE2MzkyODc2NTU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=400"
+            />
+          </CardContent1>
+        </ServiceCard1>
+        <ServiceCard2>
+          <CardContent2>
+            <Text18 projVariant="bigCard-Heading">VIRTUAL ART</Text18>
+            <Text19 projVariant="card-Text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </Text19>
+            <Image07
+              alt="image"
+              src="https://images.unsplash.com/photo-1492037766660-2a56f9eb3fcb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHZpcnV0YWwlMjBhcnR8ZW58MHx8fHwxNjM5Mjg3OTM3&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300"
+            />
+          </CardContent2>
+        </ServiceCard2>
+        <ServiceCard3>
+          <CardContent3>
+            <Text20 projVariant="bigCard-Heading">OTHER PAID WORKS</Text20>
+            <Text21 projVariant="card-Text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </Text21>
+            <Image08
+              alt="image"
+              src="https://images.unsplash.com/1/macbook-air-all-faded-and-stuff.jpg?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjb21wdXRlciUyMHdvcmtzfGVufDB8fHx8MTYzOTI4Nzk2NA&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300"
+            />
+          </CardContent3>
+        </ServiceCard3>
+      </Services>
+      <AboutUs id="about-us">
+        <HeadingContainer1>
+          <Text22 projVariant="section-Heading">
+            What&apos;s the story behind our product?
+          </Text22>
+          <SecondaryText projVariant="section-Text">
+            MY story Is a complex one
+          </SecondaryText>
+        </HeadingContainer1>
+        <TextContainer>
+          <Text23 projVariant="section-Text">
+            <span>
+              I&apos;m abhijith ajithkumar i was thrilled with ideas to find a
+              reserach team to design works inorder survive this competitve
+              world. I Find with a group of people support a nd tolerate my
+              ideas and Then i launched this project 2019
+            </span>
+            <br></br>
+            <span>So On god&apos;s grace everything Perfect!</span>
+          </Text23>
+          <Image09
+            alt="image"
+            src="/playground_assets/img-20211212-wa0055-1500w.jpg"
+          />
+        </TextContainer>
+        <CtaBtn projVariant="button" projVariant="anchor">
+          START BUILDING
+        </CtaBtn>
+      </AboutUs>
+      <SectionSeparator1></SectionSeparator1>
+      <Testimonials>
+        <Text27 projVariant="section-Heading">
+          What are they saying about us?
+        </Text27>
+        <CardsContainer1>
+          <TestimonialCard>
+            <CardHeading>
+              <NameAndPosition>
+                <Name projVariant="card-Heading">Will Evans</Name>
+                <Position projVariant="card-Text">Position</Position>
+              </NameAndPosition>
+              <StarsContainer>
+                <Icon02 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon02>
+                <Icon04 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon04>
+                <Icon06 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon06>
+                <Icon08 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon08>
+                <Icon10 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon10>
+              </StarsContainer>
+            </CardHeading>
+            <Text28 projVariant="card-Text">sample review :)</Text28>
+          </TestimonialCard>
+          <TestimonialCard1>
+            <CardHeading1>
+              <NameAndPosition1>
+                <Name1 projVariant="card-Heading">Marie Alba</Name1>
+                <Position1 projVariant="card-Text">Position</Position1>
+              </NameAndPosition1>
+              <StarsContainer1>
+                <Icon12 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon12>
+                <Icon14 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon14>
+                <Icon16 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon16>
+                <Icon18 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon18>
+                <Icon20 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon20>
+              </StarsContainer1>
+            </CardHeading1>
+            <Text29 projVariant="card-Text">sample review :)</Text29>
+          </TestimonialCard1>
+          <TestimonialCard2>
+            <CardHeading2>
+              <NameAndPosition2>
+                <Name2 projVariant="card-Heading">Taylor Sam</Name2>
+                <Position2 projVariant="card-Text">Position</Position2>
+              </NameAndPosition2>
+              <StarsContainer2>
+                <Icon22 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon22>
+                <Icon24 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon24>
+                <Icon26 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon26>
+                <Icon28 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon28>
+                <Icon30 viewBox="0 0 950.8571428571428 1024">
+                  <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
+                </Icon30>
+              </StarsContainer2>
+            </CardHeading2>
+            <Text30 projVariant="card-Text">Sample one :)</Text30>
+          </TestimonialCard2>
+        </CardsContainer1>
+      </Testimonials>
+      <Contact id="contact">
+        <ContentContainer>
+          <Text31 projVariant="section-Heading">
+            This is where to find us
+          </Text31>
+          <LocationsContainer>
+            <Location1>
+              <Heading5> Office</Heading5>
+              <Adress>
+                <Icon32 viewBox="0 0 1024 1024">
+                  <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
+                </Icon32>
+                <Text32 projVariant="section-Text">Address</Text32>
+              </Adress>
+              <Email>
+                <Icon34 viewBox="0 0 1024 1024">
+                  <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
+                </Icon34>
+                <Text33 projVariant="section-Text">
+                  E-mail Address : graphicstudio89@gmail.com
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </Text33>
+              </Email>
+              <Phone>
+                <Icon36 viewBox="0 0 804.5714285714286 1024">
+                  <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
+                </Icon36>
+                <Text34 projVariant="section-Text">
+                  Phone Number : +91 92345678912
+                </Text34>
+              </Phone>
+            </Location1>
+          </LocationsContainer>
+          <SocialLinksContainer>
+            <Link4
+              href="https://twitter.com/twitterindia"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Icon38 viewBox="0 0 950.8571428571428 1024">
+                <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+              </Icon38>
+            </Link4>
+            <Link5
+              href="https://www.facebook.com/MetaIndia/?brand_redir=108824017345866"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Icon40 viewBox="0 0 877.7142857142857 1024">
+                <path d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"></path>
+              </Icon40>
+            </Link5>
+            <Link6
+              href="https://www.instagram.com/instagram/?hl=en"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Icon42 viewBox="0 0 877.7142857142857 1024">
+                <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+              </Icon42>
+            </Link6>
+          </SocialLinksContainer>
+        </ContentContainer>
+        <Image10
+          alt="image"
+          src="https://images.unsplash.com/photo-1622554129902-bb01970e2540?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMzfHxlZGl0aW5nfGVufDB8fHx8MTYzOTI4ODQzNw&amp;ixlib=rb-1.2.1&amp;h=1500"
+        />
+      </Contact>
+    </Container>
+  )
+}
+
+export default Home
+
+const Container = styled('div')({
+  width: '100%',
+  height: 'auto',
+  display: 'flex',
+  'min-height': '100vh',
+  'align-items': 'center',
+  'flex-direction': 'column',
+})
+
+const NavbarContainer = styled('div')({
+  top: '0',
+  width: '100%',
+  'z-index': '100',
+  display: 'flex',
+  position: 'sticky',
+  'box-shadow': '5px 5px 10px 0px #d4d4d4',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  'background-color': TOKENS.DlColorGrayWhite,
+})
+
+const Navbar = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'max-width': TOKENS.DlSizeSizeMaxcontent,
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'padding-left': TOKENS.DlSpaceSpaceTripleunit,
+  'padding-right': TOKENS.DlSpaceSpaceTripleunit,
+  'flex-direction': 'row',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'justify-content': 'space-between',
+})
+
+const Logo = styled('div')({
+  display: 'flex',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'space-between',
+})
+
+const Image = styled('img')({
+  width: '50px',
+  'object-fit': 'cover',
+})
+
+const LinksContainer = styled('div')({
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-direction': 'row',
+  '@media(max-width: 767px)': {
+    display: 'none',
+  },
+})
+
+const Link = styled('a')(projectStyleVariants, {
+  'margin-right': TOKENS.DlSpaceSpaceTripleunit,
+  'text-decoration': 'none',
+})
+
+const Link1 = styled('a')(projectStyleVariants, {
+  'margin-right': TOKENS.DlSpaceSpaceTripleunit,
+  'text-decoration': 'none',
+})
+
+const Link2 = styled('a')(projectStyleVariants, {
+  'margin-right': TOKENS.DlSpaceSpaceTripleunit,
+  'text-decoration': 'none',
+})
+
+const Link3 = styled('a')(projectStyleVariants, {
+  'text-decoration': 'none',
+})
+
+const CtaContainer = styled('div')({
+  display: 'flex',
+  'align-items': 'center',
+  'flex-direction': 'row',
+  'justify-content': 'space-between',
+})
+
+const BurgerMenu = styled('div')({
+  display: 'none',
+  'align-items': 'flex-start',
+  'flex-direction': 'column',
+  '@media(max-width: 767px)': {
+    display: 'flex',
+    padding: TOKENS.DlSpaceSpaceHalfunit,
+    'margin-left': TOKENS.DlSpaceSpaceTripleunit,
+    'border-radius': TOKENS.DlRadiusRadiusRadius4,
+    'background-color': TOKENS.DlColorGrayBlack,
+  },
+  '@media(max-width: 479px)': {
+    'margin-left': TOKENS.DlSpaceSpaceDoubleunit,
+  },
+})
+
+const Icon = styled('svg')({
+  width: '36px',
+  height: '36px',
+  '@media(max-width: 767px)': {
+    fill: TOKENS.DlColorGrayWhite,
+  },
+})
+
+const Hero = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'max-width': TOKENS.DlSizeSizeMaxcontent,
+  'margin-top': TOKENS.DlSpaceSpaceFiveunits,
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceFiveunits,
+  'padding-left': TOKENS.DlSpaceSpaceTripleunit,
+  'margin-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  'padding-right': TOKENS.DlSpaceSpaceTripleunit,
+  'flex-direction': 'row',
+  'padding-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  'justify-content': 'space-between',
+  '@media(max-width: 991px)': {
+    'flex-direction': 'column-reverse',
+  },
+})
+
+const HeroTextContainer = styled('div')({
+  width: '35%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'margin-left': '50px',
+  'flex-direction': 'column',
+  '@media(max-width: 991px)': {
+    width: '80%',
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const Heading = styled('h1')(projectStyleVariants, {
+  'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  '@media(max-width: 767px)': {
+    'text-align': 'center',
+  },
+})
+
+const Heading1 = styled('h1')({
+  'font-size': 'medium',
+  'font-family': 'Roboto',
+  'font-weight': '700',
+  'line-height': '1.22',
+  'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  'text-transform': 'none',
+  'text-decoration': 'none',
+  '@media(max-width: 767px)': {
+    'text-align': 'center',
+  },
+})
+
+const Image01 = styled('img')({
+  width: '50%',
+  'object-fit': 'contain',
+  '@media(max-width: 991px)': {
+    width: '80%',
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const SectionSeparator = styled('div')({
+  width: '100%',
+  height: '1px',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-direction': 'column',
+  'background-color': TOKENS.DlColorGray700,
+})
+
+const Features = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'max-width': TOKENS.DlSizeSizeMaxcontent,
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceTenunits,
+  'padding-left': TOKENS.DlSpaceSpaceTripleunit,
+  'padding-right': TOKENS.DlSpaceSpaceTripleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceTenunits,
+})
+
+const HeadingContainer = styled('div')({
+  width: '45%',
+  display: 'flex',
+  'align-items': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  'flex-direction': 'column',
+  '@media(max-width: 767px)': {
+    width: '100%',
+  },
+})
+
+const Text03 = styled('h2')(projectStyleVariants, {
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Text04 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'text-align': 'center',
+})
+
+const CardsContainer = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'flex-wrap': 'wrap',
+  'align-items': 'flex-start',
+  'flex-direction': 'row',
+  'justify-content': 'space-between',
+  '@media(max-width: 767px)': {
+    'align-items': 'center',
+    'flex-direction': 'column',
+  },
+})
+
+const FeatureCard = styled('div')({
+  width: '30%',
+  display: 'flex',
+  position: 'relative',
+  'align-self': 'flex-start',
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'padding-left': TOKENS.DlSpaceSpaceDoubleunit,
+  'padding-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  '@media(max-width: 991px)': {
+    'align-self': 'center',
+  },
+  '@media(max-width: 767px)': {
+    width: '70%',
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const Image02 = styled('img')({
+  width: '100px',
+  'object-fit': 'cover',
+  'margin-bottom': '20px',
+})
+
+const Heading2 = styled('span')(projectStyleVariants, {
+  'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+})
+
+const Text05 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'text-align': 'center',
+})
+
+const FeatureCard1 = styled('div')({
+  width: '30%',
+  display: 'flex',
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'padding-left': TOKENS.DlSpaceSpaceDoubleunit,
+  'padding-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  '@media(max-width: 767px)': {
+    width: '70%',
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const Image03 = styled('img')({
+  width: '100px',
+  'object-fit': 'cover',
+  'margin-bottom': '20px',
+})
+
+const Heading3 = styled('span')(projectStyleVariants, {
+  'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+})
+
+const Text09 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'text-align': 'center',
+})
+
+const FeatureCard2 = styled('div')({
+  width: '30%',
+  display: 'flex',
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'padding-left': TOKENS.DlSpaceSpaceDoubleunit,
+  'padding-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  '@media(max-width: 767px)': {
+    width: '70%',
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const Image04 = styled('img')({
+  width: '100px',
+  'object-fit': 'cover',
+  'margin-bottom': '20px',
+})
+
+const Heading4 = styled('span')(projectStyleVariants, {
+  'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+})
+
+const Text13 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'text-align': 'center',
+})
+
+const Services = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'flex-wrap': 'wrap',
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceTenunits,
+  'flex-direction': 'row',
+  'justify-content': 'space-between',
+})
+
+const ServiceCard = styled('div')({
+  width: '49%',
+  display: 'flex',
+  'min-height': '500px',
+  'align-items': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  'background-color': TOKENS.DlColorGray900,
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const CardContent = styled('div')({
+  margin: TOKENS.DlSpaceSpaceFiveunits,
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFiveunits,
+  'max-width': '500px',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  '@media(max-width: 767px)': {
+    margin: '0px',
+  },
+})
+
+const Text14 = styled('h3')(projectStyleVariants, {
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Text15 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorPrimary700,
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Image05 = styled('img')({
+  width: '367px',
+  height: '268px',
+  'object-fit': 'cover',
+})
+
+const ServiceCard1 = styled('div')({
+  width: '49%',
+  display: 'flex',
+  'min-height': '500px',
+  'align-items': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  'background-color': TOKENS.DlColorGray900,
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const CardContent1 = styled('div')({
+  margin: TOKENS.DlSpaceSpaceFiveunits,
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFiveunits,
+  'max-width': '500px',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  '@media(max-width: 767px)': {
+    margin: '0px',
+  },
+})
+
+const Text16 = styled('h3')(projectStyleVariants, {
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Text17 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorPrimary700,
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Image06 = styled('img')({
+  width: '369px',
+  height: '265px',
+  'object-fit': 'cover',
+})
+
+const ServiceCard2 = styled('div')({
+  width: '49%',
+  display: 'flex',
+  'min-height': '500px',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  'background-color': TOKENS.DlColorGray900,
+  '@media(max-width: 479px)': {
+    width: '100%',
+    'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+  },
+})
+
+const CardContent2 = styled('div')({
+  margin: TOKENS.DlSpaceSpaceFiveunits,
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFiveunits,
+  'max-width': '500px',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  '@media(max-width: 767px)': {
+    margin: '0px',
+  },
+})
+
+const Text18 = styled('h3')(projectStyleVariants, {
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Text19 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorPrimary700,
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Image07 = styled('img')({
+  width: '298px',
+  height: '195px',
+  'object-fit': 'cover',
+})
+
+const ServiceCard3 = styled('div')({
+  width: '49%',
+  display: 'flex',
+  'min-height': '500px',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  'background-color': TOKENS.DlColorGray900,
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const CardContent3 = styled('div')({
+  margin: TOKENS.DlSpaceSpaceFiveunits,
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFiveunits,
+  'max-width': '500px',
+  'align-items': 'center',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  '@media(max-width: 767px)': {
+    margin: '0px',
+  },
+})
+
+const Text20 = styled('h3')(projectStyleVariants, {
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Text21 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorPrimary700,
+  'text-align': 'center',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+})
+
+const Image08 = styled('img')({
+  width: '277px',
+  height: '195px',
+  'object-fit': 'cover',
+})
+
+const AboutUs = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'max-width': TOKENS.DlSizeSizeMaxcontent,
+  'align-items': 'flex-start',
+  'padding-top': TOKENS.DlSpaceSpaceTenunits,
+  'padding-left': TOKENS.DlSpaceSpaceTripleunit,
+  'padding-right': TOKENS.DlSpaceSpaceTripleunit,
+  'flex-direction': 'row',
+  'padding-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  'justify-content': 'center',
+  '@media(max-width: 991px)': {
+    'flex-direction': 'column',
+  },
+  '@media(max-width: 767px)': {
+    'align-items': 'center',
+  },
+})
+
+const HeadingContainer1 = styled('div')({
+  width: '35%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'margin-right': TOKENS.DlSpaceSpaceFiveunits,
+  'flex-direction': 'column',
+  '@media(max-width: 991px)': {
+    width: '100%',
+    'margin-right': '0px',
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 767px)': {
+    'align-items': 'center',
+  },
+})
+
+const Text22 = styled('h2')(projectStyleVariants, {
+  'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  '@media(max-width: 767px)': {
+    'text-align': 'center',
+  },
+})
+
+const SecondaryText = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  '@media(max-width: 767px)': {
+    'text-align': 'center',
+  },
+  '@media(max-width: 479px)': {
+    'text-align': 'center',
+  },
+})
+
+const TextContainer = styled('div')({
+  width: '45%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-direction': 'column',
+  'justify-content': 'center',
+  '@media(max-width: 991px)': {
+    width: '100%',
+  },
+})
+
+const Text23 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+})
+
+const Image09 = styled('img')({
+  width: '100%',
+  height: '435px',
+  'object-fit': 'cover',
+})
+
+const CtaBtn = styled('button')(projectStyleVariants, {
+  color: TOKENS.DlColorGrayWhite,
+  width: '80%',
+  display: 'none',
+  'align-self': 'flex-start',
+  'text-align': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-width': '0px',
+  'border-radius': '34px',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'background-color': TOKENS.DlColorPrimary100,
+  '@media(max-width: 991px)': {
+    width: '280px',
+    display: 'block',
+    'margin-top': TOKENS.DlSpaceSpaceDoubleunit,
+  },
+})
+
+const SectionSeparator1 = styled('div')({
+  width: '100%',
+  height: '1px',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-direction': 'column',
+  'background-color': TOKENS.DlColorGray700,
+})
+
+const Testimonials = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'max-width': TOKENS.DlSizeSizeMaxcontent,
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceTenunits,
+  'padding-left': TOKENS.DlSpaceSpaceTripleunit,
+  'margin-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  'padding-right': TOKENS.DlSpaceSpaceTripleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceFiveunits,
+})
+
+const Text27 = styled('h2')(projectStyleVariants, {
+  'margin-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  '@media(max-width: 767px)': {
+    'text-align': 'center',
+  },
+  '@media(max-width: 479px)': {
+    'text-align': 'center',
+  },
+})
+
+const CardsContainer1 = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'flex-wrap': 'wrap',
+  'margin-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'align-items': 'flex-start',
+  'flex-direction': 'row',
+  'justify-content': 'space-between',
+  '@media(max-width: 767px)': {
+    'align-items': 'center',
+    'flex-direction': 'column',
+  },
+})
+
+const TestimonialCard = styled('div')({
+  width: '30%',
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFourunits,
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-color': TOKENS.DlColorGray500,
+  'border-width': '1px',
+  'padding-left': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-radius': TOKENS.DlRadiusRadiusRadius4,
+  'padding-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  '@media(max-width: 767px)': {
+    width: '70%',
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const CardHeading = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-color': TOKENS.DlColorGray500,
+  'border-width': '1px',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+  'flex-direction': 'row',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-top-width': '0px',
+  'justify-content': 'space-between',
+  'border-left-width': '0px',
+  'border-right-width': '0px',
+})
+
+const NameAndPosition = styled('div')({
+  width: '50%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-direction': 'column',
+  'justify-content': 'flex-start',
+})
+
+const Name = styled('span')(projectStyleVariants)
+
+const Position = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray700,
+})
+
+const StarsContainer = styled('div')({
+  width: '50%',
+  display: 'flex',
+  'margin-top': TOKENS.DlSpaceSpaceUnit,
+  'align-items': 'flex-start',
+  'flex-direction': 'row',
+  '@media(max-width: 767px)': {
+    'justify-content': 'flex-end',
+  },
+})
+
+const Icon02 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon04 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon06 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon08 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon10 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+})
+
+const Text28 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'text-align': 'left',
+})
+
+const TestimonialCard1 = styled('div')({
+  width: '30%',
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFourunits,
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-color': TOKENS.DlColorGray500,
+  'border-width': '1px',
+  'padding-left': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-radius': TOKENS.DlRadiusRadiusRadius4,
+  'padding-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  '@media(max-width: 767px)': {
+    width: '70%',
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const CardHeading1 = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-color': TOKENS.DlColorGray500,
+  'border-width': '1px',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+  'flex-direction': 'row',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-top-width': '0px',
+  'justify-content': 'space-between',
+  'border-left-width': '0px',
+  'border-right-width': '0px',
+})
+
+const NameAndPosition1 = styled('div')({
+  width: '50%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-direction': 'column',
+  'justify-content': 'flex-start',
+})
+
+const Name1 = styled('span')(projectStyleVariants)
+
+const Position1 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray700,
+})
+
+const StarsContainer1 = styled('div')({
+  width: '50%',
+  display: 'flex',
+  'margin-top': TOKENS.DlSpaceSpaceUnit,
+  'align-items': 'flex-start',
+  'flex-direction': 'row',
+  '@media(max-width: 767px)': {
+    'justify-content': 'flex-end',
+  },
+})
+
+const Icon12 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon14 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon16 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon18 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon20 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+})
+
+const Text29 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'text-align': 'left',
+})
+
+const TestimonialCard2 = styled('div')({
+  width: '30%',
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFourunits,
+  'align-items': 'center',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-color': TOKENS.DlColorGray500,
+  'border-width': '1px',
+  'padding-left': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-radius': TOKENS.DlRadiusRadiusRadius4,
+  'padding-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'column',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  '@media(max-width: 767px)': {
+    width: '70%',
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 479px)': {
+    width: '100%',
+  },
+})
+
+const CardHeading2 = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'padding-top': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-color': TOKENS.DlColorGray500,
+  'border-width': '1px',
+  'margin-bottom': TOKENS.DlSpaceSpaceFourunits,
+  'flex-direction': 'row',
+  'padding-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'border-top-width': '0px',
+  'justify-content': 'space-between',
+  'border-left-width': '0px',
+  'border-right-width': '0px',
+})
+
+const NameAndPosition2 = styled('div')({
+  width: '50%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'flex-direction': 'column',
+  'justify-content': 'flex-start',
+})
+
+const Name2 = styled('span')(projectStyleVariants)
+
+const Position2 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray700,
+})
+
+const StarsContainer2 = styled('div')({
+  width: '50%',
+  display: 'flex',
+  'margin-top': TOKENS.DlSpaceSpaceUnit,
+  'align-items': 'flex-start',
+  'flex-direction': 'row',
+  '@media(max-width: 767px)': {
+    'justify-content': 'flex-end',
+  },
+})
+
+const Icon22 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon24 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon26 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon28 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceUnit,
+})
+
+const Icon30 = styled('svg')({
+  fill: TOKENS.DlColorPrimary500,
+  width: '24px',
+  height: '24px',
+})
+
+const Text30 = styled('span')(projectStyleVariants, {
+  color: TOKENS.DlColorGray500,
+  'text-align': 'left',
+})
+
+const Contact = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'max-width': TOKENS.DlSizeSizeMaxcontent,
+  'align-items': 'flex-start',
+  'padding-top': TOKENS.DlSpaceSpaceTenunits,
+  'padding-left': TOKENS.DlSpaceSpaceTripleunit,
+  'flex-direction': 'row',
+  'padding-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  'justify-content': 'space-between',
+  '@media(max-width: 767px)': {
+    'padding-right': TOKENS.DlSpaceSpaceTripleunit,
+    'flex-direction': 'column',
+  },
+})
+
+const ContentContainer = styled('div')({
+  width: '50%',
+  display: 'flex',
+  padding: TOKENS.DlSpaceSpaceFiveunits,
+  'align-self': 'stretch',
+  'align-items': 'flex-start',
+  'border-color': TOKENS.DlColorGray700,
+  'border-width': '1px',
+  'flex-direction': 'column',
+  'justify-content': 'flex-start',
+  'border-left-width': '0px',
+  'border-right-width': '0px',
+  'border-bottom-width': '0px',
+  '@media(max-width: 767px)': {
+    width: '100%',
+  },
+  '@media(max-width: 479px)': {
+    'align-items': 'center',
+    'padding-left': '0px',
+    'padding-right': '0px',
+  },
+})
+
+const Text31 = styled('h2')(projectStyleVariants, {
+  'margin-top': TOKENS.DlSpaceSpaceFiveunits,
+  'margin-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  '@media(max-width: 479px)': {
+    'text-align': 'center',
+  },
+})
+
+const LocationsContainer = styled('div')({
+  width: '100%',
+  display: 'flex',
+  'align-items': 'flex-start',
+  'margin-bottom': TOKENS.DlSpaceSpaceFiveunits,
+  'flex-direction': 'row',
+  '@media(max-width: 991px)': {
+    'flex-wrap': 'wrap',
+  },
+  '@media(max-width: 479px)': {
+    'margin-bottom': '0px',
+    'justify-content': 'center',
+  },
+})
+
+const Location1 = styled('div')({
+  display: 'flex',
+  'align-items': 'flex-start',
+  'margin-right': TOKENS.DlSpaceSpaceFourunits,
+  'flex-direction': 'column',
+  '@media(max-width: 991px)': {
+    'margin-bottom': TOKENS.DlSpaceSpaceTripleunit,
+  },
+  '@media(max-width: 479px)': {
+    'margin-right': '0px',
+  },
+})
+
+const Heading5 = styled('span')({
+  'font-size': '24px',
+  'font-style': 'normal',
+  'font-family': 'Roboto',
+  'font-weight': '700',
+  'margin-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+})
+
+const Adress = styled('div')({
+  display: 'flex',
+  'align-items': 'flex-start',
+  'margin-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'row',
+})
+
+const Icon32 = styled('svg')({
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceDoubleunit,
+})
+
+const Text32 = styled('span')(projectStyleVariants)
+
+const Email = styled('div')({
+  display: 'flex',
+  'align-items': 'flex-start',
+  'margin-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'row',
+})
+
+const Icon34 = styled('svg')({
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceDoubleunit,
+})
+
+const Text33 = styled('span')(projectStyleVariants)
+
+const Phone = styled('div')({
+  display: 'flex',
+  'align-items': 'flex-start',
+  'margin-bottom': TOKENS.DlSpaceSpaceDoubleunit,
+  'flex-direction': 'row',
+})
+
+const Icon36 = styled('svg')({
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceDoubleunit,
+})
+
+const Text34 = styled('span')(projectStyleVariants)
+
+const SocialLinksContainer = styled('div')({
+  display: 'flex',
+  'align-self': 'flex-start',
+  'margin-top': TOKENS.DlSpaceSpaceFiveunits,
+  'align-items': 'flex-start',
+  'flex-direction': 'row',
+  '@media(max-width: 479px)': {
+    'align-self': 'center',
+  },
+})
+
+const Link4 = styled('a')({
+  display: 'contents',
+})
+
+const Icon38 = styled('svg')({
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'text-decoration': 'none',
+})
+
+const Link5 = styled('a')({
+  display: 'contents',
+})
+
+const Icon40 = styled('svg')({
+  width: '24px',
+  height: '24px',
+  'margin-right': TOKENS.DlSpaceSpaceDoubleunit,
+  'text-decoration': 'none',
+})
+
+const Link6 = styled('a')({
+  display: 'contents',
+})
+
+const Icon42 = styled('svg')({
+  width: '24px',
+  height: '24px',
+  'text-decoration': 'none',
+})
+
+const Image10 = styled('img')({
+  width: '50%',
+  'object-fit': 'cover',
+  '@media(max-width: 991px)': {
+    'align-self': 'center',
+  },
+  '@media(max-width: 767px)': {
+    width: '100%',
+  },
+})
